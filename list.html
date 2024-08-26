@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        .box-items {
+            
+            border: solid 1px;
+            color: grey;
+            width: 350px;
+            border-radius: 5px;
+            
+        }
+        .list-item {
+            display: flex;
+            align-items: center;
+        }
+        .content {
+            margin-left: 10px;
+            color: black;
+        }
+        .button {
+            padding-left: 10px;
+            padding-block:5px;
+            width: 320px;
+            display: block;
+            border: none;
+            cursor: pointer;
+            transition-duration: 0.2s;
+        }
+        .button:hover {
+            background-color: rgb(58, 58, 216);
+            border-radius: 5px;
+            
+        }
+        .padding1 {
+            padding-left: 10px;
+            padding-block: 20px;
+            border-bottom: solid 1px;
+            color: rgb(91, 89, 89);
+            width: 340px;
+        }
+        .search-box {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            width: auto;
+            height: 30px;
+            border-bottom: solid 1px;
+        }
+        .search-input {
+            border: none;
+            width: 100%;
+            height: 90%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box-items">
+        <div class="search-box">
+            <img src="D:/DOWNLOAD/search.png" alt="search" width="20px" height="20px">
+            <input type="text" placeholder="Search projects..." class="search-input">
+        </div>
+        <div class="padding1">
+            <strong>Recent searches</strong>
+            <div class="button">
+                <div class="list-item">
+                    <i class="material-icons" style="font-size:24px;color:grey;">folder</i>
+                    <div class="content">Tailwind labs / Website Redesign</div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="list-item">
+                    <i class="material-icons" style="font-size:24px;color:grey;">folder</i>
+                    <div class="content">Laravel LLC / Conference Branding</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="button">
+            <div class="list-item">
+                <i class="material-icons" style="font-size:24px;color:grey;">note_add</i>
+                <div class="content">Add new file...</div>
+            </div>
+        </div>
+        <div class="button">
+            <div class="list-item">
+                <i class="material-icons" style="font-size:24px;color:grey;">create_new_folder</i>
+                <div class="content">Add new foder...</div>
+            </div>
+        </div>
+        <div class="button">
+            <div class="list-item">
+                <i class="material-icons" style="font-size:24px;color:grey;">tag</i>
+                <div class="content">Add hashtag...</div>
+            </div>
+        </div>
+        <div class="button">
+            <div class="list-item">
+                <i class="material-icons" style="font-size:24px;color:grey;">label</i>
+                <div class="content">Add new label...</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
